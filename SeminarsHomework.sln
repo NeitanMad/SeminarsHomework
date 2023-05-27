@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeminarsHomework1", "Semina
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeminarsHomework2", "..\SeminarsHomework2\SeminarsHomework2.csproj", "{F6E3A184-E6AB-4750-A2E1-41EF4CC6614D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework2", "Homework2", "{E51C6EB6-8C22-4181-A89F-6065FE3EE86C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6E3A184-E6AB-4750-A2E1-41EF4CC6614D} = {E51C6EB6-8C22-4181-A89F-6065FE3EE86C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0EF4736B-455B-49CA-ADBC-77A5CFA72BFE}
