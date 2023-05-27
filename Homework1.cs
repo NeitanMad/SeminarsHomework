@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("======================ДЗ 1======================");
+            Console.WriteLine();
             // Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
             Console.Write("Введите первое число: ");
             int firstNuber = int.Parse(Console.ReadLine());
@@ -15,7 +17,7 @@
             {
                 Console.WriteLine($"Число {firstNuber} больше числа {secondNumber}");
             }
-            else if(firstNuber < secondNumber)
+            else if (firstNuber < secondNumber)
             {
                 Console.WriteLine($"Число {secondNumber} больше числа {firstNuber}");
             }
@@ -74,12 +76,19 @@
                     }
 
                     else
-                    Console.Write($"{i}");
+                        Console.Write($"{i}");
                 }
             }
 
+            Console.WriteLine();
+
+            Console.WriteLine("======================ДЗ 2======================");
+            Console.WriteLine();
             Homework2.Homework(); // запуск второй домашки
 
+            Console.WriteLine("======================ДЗ 3======================");
+            Console.WriteLine();
+            Homework3.Homework(); // запуск третьей домашки
         }
     }
 }
