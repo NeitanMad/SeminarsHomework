@@ -1,6 +1,6 @@
 ﻿namespace SeminarsHomework
 {
-    internal class Program
+    internal class Homework1
     {
         static void Main(string[] args)
         {
@@ -77,6 +77,8 @@
                     Console.Write($"{i}");
                 }
             }
+
+            Homework2.Homework(); // запуск второй домашки
 
         }
     }
