@@ -8,7 +8,9 @@ namespace SeminarsHomework
 {
     public class Homework2
     {
-        public static void Homework()
+        public static string LessonName = "Домашняя работа No 2";
+
+        public static void RunHomework()
         {
 
             // Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.

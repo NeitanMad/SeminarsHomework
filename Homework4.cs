@@ -2,7 +2,9 @@
 {
     public class Homework4
     {
-        public static void Homework()
+        public static string LessonName = "Домашняя работа No 4";
+
+        public static void RunHomework()
         {
 
             // Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.

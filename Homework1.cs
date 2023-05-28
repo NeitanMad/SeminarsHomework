@@ -2,10 +2,10 @@
 {
     public class Homework1
     {
-        static void Main(string[] args)
+        public static string LessonName = "Домашняя работа No 1";
+
+        public static void RunHomework()
         {
-            Console.WriteLine("======================ДЗ 1======================");
-            Console.WriteLine();
             // Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
             Console.Write("Введите первое число: ");
             int firstNuber = int.Parse(Console.ReadLine());
@@ -83,21 +83,6 @@
             }
 
             Console.WriteLine();
-
-            Console.WriteLine("======================ДЗ 2======================");
-            Console.WriteLine();
-
-            Homework2.Homework(); // запуск второй домашки
-
-            Console.WriteLine("======================ДЗ 3======================");
-            Console.WriteLine();
-
-            Homework3.Homework(); // запуск третьей домашки
-
-            Console.WriteLine("======================ДЗ 4======================");
-            Console.WriteLine();
-
-            Homework4.Homework();// запуск четвертой домашки
         }
     }
 }

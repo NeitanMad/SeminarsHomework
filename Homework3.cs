@@ -8,7 +8,8 @@ namespace SeminarsHomework
 {
     public class Homework3
     {
-        public static void Homework()
+        public static string LessonName = "Домашняя работа No 3";
+        public static void RunHomework()
         {
             // Задача 19 Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
