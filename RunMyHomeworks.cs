@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace SeminarsHomework
 {
@@ -12,7 +8,7 @@ namespace SeminarsHomework
         {
             StringBuilder NameOfTask = new StringBuilder();
             NameOfTask.Append(Homework1.LessonName + "\n" + Homework2.LessonName + "\n" + Homework3.LessonName + "\n"
-                + Homework4.LessonName + "\n");
+                + Homework4.LessonName + "\n" + Homework5.LessonName + "\n");
             Console.WriteLine("Введите номер домашнего задания что бы откррыть его.");
             Console.WriteLine("Доступные домашние работы: \n" + NameOfTask);
         }
@@ -59,7 +55,7 @@ namespace SeminarsHomework
 
             } while (key != (char)13);
 
-             Console.WriteLine(Command);
+            Console.WriteLine(Command);
             ParseCommandString(Command.ToString());
 
         }
@@ -93,6 +89,12 @@ namespace SeminarsHomework
                     case "4":
 
                         Homework4.RunHomework();
+
+                        break;
+
+                    case "5":
+
+                        Homework5.RunHomework();
 
                         break;
 
