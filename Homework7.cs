@@ -18,90 +18,90 @@
 
             Random random = new Random();
 
-            //double[,] array = new double[rows, coulmn];
+            double[,] array = new double[rows, coulmn];
 
-            //Console.WriteLine("Заполнение случайными эллементами..");
-            //Thread.Sleep(1000);
+            Console.WriteLine("Заполнение случайными эллементами..");
+            Thread.Sleep(1000);
 
-            //for (int i = 0; i < rows; i++)
-            //{
-            //    for (int j = 0; j < coulmn; j++)
-            //    {
-            //        array[i, j] = random.NextDouble();
-            //    }
-            //}
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < coulmn; j++)
+                {
+                    array[i, j] = random.NextDouble();
+                }
+            }
 
-            //Console.WriteLine("Полученный массив: ");
+            Console.WriteLine("Полученный массив: ");
 
-            //for (int i = 0; i < rows; i++)
-            //{
-            //    for (int j = 0; j < coulmn; j++)
-            //    {
-            //        Thread.Sleep(100);
-            //        Console.Write(array[i, j] + "\t");
-            //    }
-            //    Console.WriteLine();
-            //}
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < coulmn; j++)
+                {
+                    Thread.Sleep(100);
+                    Console.Write(array[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
 
-            ///* Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
-            //и возвращает значение этого элемента или же указание, что такого элемента нет. */
-            //bool answer = true;
-            //Console.WriteLine("Дан массив:");
+            /* Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
+            и возвращает значение этого элемента или же указание, что такого элемента нет. */
+            bool answer = true;
+            Console.WriteLine("Дан массив:");
 
-            //int[,] arr = new int[5, 5];
+            int[,] arr = new int[5, 5];
 
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    for (int j = 0; j < 5; j++)
-            //    {
-            //        arr[i, j] = random.Next(51);
-            //    }
-            //}
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    arr[i, j] = random.Next(51);
+                }
+            }
 
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    for (int j = 0; j < 5; j++)
-            //    {
-            //        Console.Write(arr[i, j] + "\t");
-            //    }
-            //    Console.WriteLine();
-            //}
-            //while (answer)
-            //{
-            //    Console.WriteLine("Укажите элемент, что бы узнать его индекс");
-            //    Console.Write("Элемент: ");
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    Console.Write(arr[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+            while (answer)
+            {
+                Console.WriteLine("Укажите элемент, что бы узнать его индекс");
+                Console.Write("Элемент: ");
 
-            //    int find = int.Parse(Console.ReadLine());
-            //    bool flag = false;
+                int find = int.Parse(Console.ReadLine());
+                bool flag = false;
 
-            //    for (int i = 0; i < 5; i++)
-            //    {
-            //        for (int j = 0; j < 5; j++)
-            //        {
-            //            if (arr[i, j] == find)
-            //            {
-            //                Console.WriteLine($"Индекс элемента {find} -> {i} , {j}");
-            //                flag = true;
-            //                break;
-            //            }
-            //        }
-            //    }
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 0; j < 5; j++)
+                    {
+                        if (arr[i, j] == find)
+                        {
+                            Console.WriteLine($"Индекс элемента {find} -> {i} , {j}");
+                            flag = true;
+                            break;
+                        }
+                    }
+                }
 
-            //    if (flag == false)
-            //    {
-            //        Console.WriteLine($"Элемент {find} -> не существует!");
-            //    }
+                if (flag == false)
+                {
+                    Console.WriteLine($"Элемент {find} -> не существует!");
+                }
 
-            //    Console.WriteLine("Хотите узнать индекс другого элемента? Y/N");
+                Console.WriteLine("Хотите узнать индекс другого элемента? Y/N");
 
-            //    string symbol = Console.ReadLine();
+                string symbol = Console.ReadLine();
 
-            //    if (symbol.ToLower() == "y")
-            //    {
-            //        answer = true;
-            //    }
-            //    else answer = false;
-            //}
+                if (symbol.ToLower() == "y")
+                {
+                    answer = true;
+                }
+                else answer = false;
+            }
 
             // Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 
