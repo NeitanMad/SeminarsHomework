@@ -23,6 +23,9 @@
     <Compile Update="Homework5.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Update="Homework6.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Update="RunMyHomeworks.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>

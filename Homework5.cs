@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SeminarsHomework
+﻿namespace SeminarsHomework
 {
     public class Homework5
     {
         public static string LessonName = "Домашняя работа No 5";
 
-        public static void RunHomework() 
+        public static void RunHomework()
         {
             //// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных
 
@@ -93,7 +87,7 @@ namespace SeminarsHomework
             Console.Write("Укажите длину массива: ");
             int arrSize = int.Parse(Console.ReadLine());
 
-            int[] ints= new int[arrSize];
+            int[] ints = new int[arrSize];
 
             for (int i = 0; i < ints.Length; i++)
             {
