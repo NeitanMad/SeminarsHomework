@@ -9,7 +9,7 @@ namespace SeminarsHomework
             StringBuilder NameOfTask = new StringBuilder();
             NameOfTask.Append(Homework1.LessonName + "\n" + Homework2.LessonName + "\n" + Homework3.LessonName + "\n"
                 + Homework4.LessonName + "\n" + Homework5.LessonName + "\n" + Homework6.LessonName + "\n" + Homework7.LessonName + "\n"
-                + Homework8.LessonName + "\n");
+                + Homework8.LessonName + "\n" + Exam.LessonName + "\n");
             Console.WriteLine("Введите номер домашнего задания что бы откррыть его.");
             Console.WriteLine("Доступные домашние работы: \n" + NameOfTask);
         }
@@ -115,6 +115,12 @@ namespace SeminarsHomework
                     case "8":
 
                         Homework8.RunHomework();
+
+                        break;
+
+                    case "9":
+
+                        Exam.RunHomework();
 
                         break;
 
